@@ -56,7 +56,7 @@ function displayAnimeDetails(animeDetails) {
     episodeButtons.forEach(button => {
         button.addEventListener('click', () => {
             const episodeId = button.getAttribute('data-episode-id');
-            window.location.href = `video-player.html?id=${episodeId}`;
+            window.location.href = `test.html?id=${episodeId}`;
         });
     });
 }
